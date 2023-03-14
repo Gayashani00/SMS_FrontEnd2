@@ -1,5 +1,13 @@
 .App {
   text-align: center;
+  height: 100vh;
+  background-image: url("https://imgs.search.brave.com/3zL3WfE1aK5V3u5JhFYg0wnyr_Nmw0LZPBsuuZppn0c/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93d3cu/d2FsbHBhcGVydGlw/LmNvbS93bWltZ3Mv/MC0zNzk1X3dhbGxw/YXBlci1ib29rcy1s/aWJyYXJ5LXNoZWx2/ZXMtbGlnaHRpbmct/aGQtYm9vay1saWJy/YXJ5LmpwZw");
+  position: fixed;
+  
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
 }
 
 .App-logo {
@@ -35,4 +43,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.bg{
+  background-image: url(./Images/background.jpg);
+  width: 200px;
+  height: 200px;
+  background-size: cover;
 }
