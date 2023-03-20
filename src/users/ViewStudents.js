@@ -17,7 +17,7 @@ export default function ViewStudents ()  {
     })
 
     const loadUSer=async()=> {
-        const result=await axios.get(`http://localhost:8081/user/${id}`)
+        const result=await axios.get(`http://localhost:8084/user/${id}`)
         setUser(result.data)
     }
   return (

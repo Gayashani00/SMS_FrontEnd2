@@ -22,7 +22,7 @@ export default function Navbar() {
 
     
     <Link className="btn btn-outline-light bg-outline-light" to="/menu">Menu</Link>
-    <Link className="btn btn-outline-light bg-outline-light" to="/">Results</Link>
+    <Link className="btn btn-outline-light bg-outline-light" >Results</Link>
     <Link className="btn btn-outline-light bg-outline-success" to="/addStudents">Add Student</Link>
    
   </div>

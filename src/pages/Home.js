@@ -17,13 +17,13 @@ export default function Home() {
     );
 
     const loadusers =async() =>{
-        const result=await axios.get("http://localhost:8082/users");
+        const result=await axios.get("http://localhost:8084/users");
         setUsers(result.data);
 
     };
 
     const deleteuser=async (id)=>{
-      await axios.delete(`http://localhost:8082/user/${id}`)
+      await axios.delete(`http://localhost:8084/user/${id}`)
       loadusers();
     };
 
@@ -53,9 +53,9 @@ export default function Home() {
       <td>{user.lastname}</td>
       <td>{user.email}</td>
       <td>
-        <Link className="btn btn-outline-primary mx-2"
+        {/* <Link className="btn btn-outline-primary mx-2"
         to={`/ViewStudents/${user.id}`}
-        >View</Link>
+        >View</Link> */}
         <Link className="btn btn-outline-success mx-2"
         to={`/EditStudents/${user.id}`}
         

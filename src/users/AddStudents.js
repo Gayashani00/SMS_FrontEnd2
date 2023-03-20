@@ -26,7 +26,7 @@ export default function AddStudents() {
 
     const onSubmit= async (e)=>{
         e.preventDefault();
-        await axios.post("http://localhost:8082/user",user);
+        await axios.post("http://localhost:8084/user",user);
         navigate("/"); 
     }
 
